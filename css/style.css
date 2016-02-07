@@ -1,0 +1,197 @@
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.clearfix:before, .clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+
+/***HEADER***/
+
+
+.top-menu {
+	background-color: #fff;
+	padding: 30px 0;
+	border-bottom: 5px solid #95b3c2;
+}
+
+.top-menu .logo {
+	text-indent: -9999px;
+	display: inline-block;
+	background: url(../img/logo.png);
+	height: 56px;
+	width: 279px;
+}
+
+.top-menu .contacts {
+	float: right;
+}
+
+.contacts p {
+	font-family: "kelson_sans_rubold";
+	font-size: 24px;
+	color: #264757;
+}
+
+.contacts a {
+	font-family: "ralewayregular";
+	font-size: 16px;
+	color: #264757;
+	display: block;
+}
+
+.h-base {
+	background: url(../img/header-bg.png) no-repeat center;
+	background-size: cover;
+}
+
+.h-base h1 {
+	font-family: "kelson_sans_rubold";
+	font-size: 54px;
+	color: #fff;
+	text-transform: uppercase;
+	margin-top: 46px;
+}
+
+.h-base p {
+	font-family: "ralewayregular";
+	font-size: 30px;
+	color: #fff;
+	margin-top: 15px;
+}
+
+.h-base img {
+	margin-top: 15px;
+	float: left;
+}
+
+header .form {
+	margin-left: 229px;
+	margin-top: 38px;
+	height: 374px;
+	width: 470px;
+	display: inline-block;
+}
+
+.form .form-head {
+	background: url(../img/form-head.png) no-repeat;
+	display: inline-block;
+	width: 470px;
+	height: 110px;
+	padding-top: 22px;
+	font-family: "ralewaybold";
+	font-size: 30px;
+	color: #fff;
+	text-align: center;
+}
+
+.form .form-base {
+	background: url(../img/form-base.png) no-repeat;
+	display: inline-block;
+	margin-top: -22px;
+	width: 470px;
+	height: 264px;
+	padding: 20px 32px;
+}
+
+.form-base input {
+	display: block;
+	width: 365px;
+	border: 1px solid rgb( 212, 212, 212 );
+	border-radius: 12px;
+	padding: 10px 20px;
+	margin-bottom: 7px;
+	outline: 0;
+	font-family: "ralewayregular";
+	font-size: 20px;
+	color: #acacac;
+}
+
+.form-base input:focus {
+	border: 2px solid rgb( 77, 187, 243 );
+}
+
+.form-base .form-submit {
+	background: url(../img/sbm-btn.png) no-repeat;
+	display: block;
+	width: 410px;
+	height: 60px;
+	font-family: "ralewaybold";
+	font-size: 24px;
+	color: #fff;
+	line-height: 60px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin-top: 11px;
+}
+
+.feautures {
+	background: url(../img/feautures-bg.png) no-repeat;
+	background-size: cover;
+}
+
+.feautures ul {
+	padding: 20px 0;
+}
+
+.feautures li {
+	float: left;
+	font-family: "ralewaylight";
+	font-size: 18px;
+	color: #fff;
+	text-align: center;
+}
+
+.feautures li p {
+	margin-top: 18px;
+}
+
+.feautures .list {
+	border-right: 1px solid #fff;
+	padding: 18px 30px 18px 15px;
+}
+
+.feautures .bank {
+	border-right: 1px solid #fff;
+	padding: 18px 60px;
+}
+
+.feautures .percent {
+	border-right: 1px solid #fff;
+	padding: 18px 45px;
+}
+
+.feautures .debs {
+	padding-top: 18px;
+}
+
+.feautures .debs p {
+	max-width: 250px;
+	line-height: 13px;
+}
+
+/**DEBITORS**/
+
+
+.debitors h2 {
+	font-family: "kelson_sans_rubold";
+	font-size: 54px;
+	color: #264757;
+	text-transform: uppercase;
+	margin-top: 83px;
+}
+
+.debitors p {
+	font-family: ralewayregular;
+	font-size: 26px;
+	color: #264757;
+	margin-top: 28px;
+}
